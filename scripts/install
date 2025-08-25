@@ -125,6 +125,8 @@ ynh_add_nginx_config
 
 # Create a system user
 ynh_system_user_create $app
+# add to multimedia group
+usermod -a -G multimedia $app
 
 #=================================================
 # MODIFY A CONFIG FILE
