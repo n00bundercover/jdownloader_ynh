@@ -1,3 +1,4 @@
+# TESTING; CURRENTLY NOT WORKING
 # JDownloader app for YunoHost
 JDownloader
 
