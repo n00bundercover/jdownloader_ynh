@@ -154,7 +154,7 @@ cp -a ../conf/dark.html /var/www/$path_url/index.html
 ### that really need such authorization.
 
 # Set permissions to app files
-chown -R $app /opt/jdownloader
+chown -R $app:$app /opt/jdownloader
 
 #=================================================
 # SETUP SSOWAT
