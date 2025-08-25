@@ -124,7 +124,7 @@ ynh_add_nginx_config
 #=================================================
 
 # Create a system user
-#ynh_system_user_create $app
+ynh_system_user_create $app
 
 #=================================================
 # MODIFY A CONFIG FILE
@@ -154,7 +154,7 @@ cp -a ../conf/dark.html /var/www/$path_url/index.html
 ### that really need such authorization.
 
 # Set permissions to app files
-chown -R admin:1007 /opt/jdownloader
+chown -R $app /opt/jdownloader
 
 #=================================================
 # SETUP SSOWAT
