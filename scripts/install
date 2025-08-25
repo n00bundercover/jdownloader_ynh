@@ -101,7 +101,7 @@ ynh_install_app_dependencies openjdk-17-jre
 #==============================================
 
 mkdir /opt/jdownloader
-mkdir /var/www/$path_url
+mkdir /var/www$path_url
 wget http://installer.jdownloader.org/JDownloader.jar
 mv JDownloader.jar /opt/jdownloader
 
